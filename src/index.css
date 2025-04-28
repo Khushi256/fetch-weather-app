@@ -7,14 +7,76 @@
 .app{
   min-height: 100vh;
   display: grid;
-  background: #e2d4ff;
+  background: black;
 }
 .weather{
   place-self: center;
   padding: 40px;
   border-radius: 10px;
-  background-color: aqua;
+  background-image: linear-gradient(to bottom right, rgb(65, 20, 179),rgb(98, 31, 98));
   display:flex;
   flex-direction: column;
   align-items: center;
+  border-style:groove;
+  border-color: rgb(175, 147, 175);
+}
+.search-bar{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+#search-icon{
+  max-width: 3em;
+  background-color:white;
+  border-radius: 50%;
+  padding: 5px;
+  margin-left: 1rem;
+ 
+}
+.search-bar input{
+  width: 17rem;
+  height: 3rem;
+  border-radius: 30px;
+  border: none;
+  
+}
+.temp-loc{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.temp-icon{
+  max-width: 15em;
+  padding-bottom: 0px;
+}
+.temprature{
+  font-size: 4rem;
+  color:white;
+}
+.location{
+  color:white;
+  font-weight: 100;
+}
+.wind-humidity{
+  display:flex;
+  justify-content:space-around;
+  align-items:center;
+  flex-direction: row;
+}
+#wind-icon{
+  max-width: 3em;
+}
+.wind-humidity{
+  color: white;
+  margin-top: 2rem;
+}
+.value1, .value2{
+  font-size: 25px;
+}
+.value1{
+  margin-right: 6rem;
+}
+.humidity, .wind{
+  margin-right: 2rem;
 }
