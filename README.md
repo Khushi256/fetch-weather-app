@@ -1,12 +1,52 @@
-# React + Vite
+# Weather App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a simple React-based weather app that fetches real-time weather data and displays it for a given city. The app fetches the weather details such as temperature, humidity, and wind speed using the [WeatherAPI](https://www.weatherapi.com/). The UI is designed with a clean and modern look, with various icons representing different weather conditions.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Search Weather**: Search for any city to get the current weather details.
+- **Real-time Data**: Get weather information such as temperature, humidity, and wind speed.
+- **Icons**: Displays relevant icons based on the weather condition (sun, clouds, rain, etc.).
+- **Responsive UI**: The app is designed to be user-friendly with a clean, minimal interface.
 
-## Expanding the ESLint configuration
+## Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **Frontend**: ReactJS
+- **Weather API**: [WeatherAPI](https://www.weatherapi.com/)
+- **Icons**: Custom weather-related icons used throughout the app.
+
+## Setup
+
+To run this project locally, follow these steps:
+
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/your-username/weather-app.git
+   ```
+2. **Install the required dependencies:**
+  ```bash
+   cd weather-app
+   npm install
+  ```
+3. **Create a .env file in the root of the project and add your WeatherAPI key:**
+  ```bash
+  VITE_WEATHER_API_KEY=your_weather_api_key
+```
+4. **Run the app:**
+ ```bash
+  npm start
+```
+5. **Open the app in your browser at http://localhost:3000/.**
+
+## API Generation (Work in Progress)
+Currently, the app fetches weather data directly from WeatherAPI. However, I am working on generating an API to integrate with the app. This API will allow users to fetch weather data more efficiently and provide more customizable options for querying weather information.
+
+## Contributing
+If you'd like to contribute to this project, feel free to fork the repository and create a pull request with your changes. Make sure to follow the code of conduct and maintain clean, readable code.
+
+## License
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+## Acknowledgements
+- WeatherAPI for the weather data.
+- All icon resources are either custom-made or sourced from Freepik.
