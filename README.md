@@ -1,19 +1,50 @@
 # Weather App
 
-This is a simple React-based weather app that fetches real-time weather data and displays it for a given city. The app fetches the weather details such as temperature, humidity, and wind speed using the [WeatherAPI](https://www.weatherapi.com/). The UI is designed with a clean and modern look, with various icons representing different weather conditions.
+![Weather App Screenshot](.localhost_5173_.png)
 
-## Features
+This is a simple **React-based weather app** that fetches real-time weather data and displays it for a given city using the **OpenWeatherMap API**. It features a clean and modern user interface with visual icons and background styling to enhance the experience.
 
-- **Search Weather**: Search for any city to get the current weather details.
-- **Real-time Data**: Get weather information such as temperature, humidity, and wind speed.
-- **Icons**: Displays relevant icons based on the weather condition (sun, clouds, rain, etc.).
-- **Responsive UI**: The app is designed to be user-friendly with a clean, minimal interface.
+---
 
-## Tech Stack
+## 🔍 Features
+
+- **🔎 Search Functionality**: Enter any city to get live weather updates.
+- **📡 Real-Time Weather Data**:
+  - 🌡️ Temperature
+  - 💧 Humidity
+  - 💨 Wind Speed
+- **🌤️ Weather Icons**: Displays dynamic icons based on weather conditions.
+- **🖥️ Responsive UI**: A modern card layout over a scenic background.
+
+---
+
+## 🖼️ UI Preview
+
+The latest UI includes:
+- A centered weather display card
+- Mountain background for visual appeal
+- Search bar for location input
+- Icons and stats for temperature, humidity, and wind
+
+---
+
+## 🛠️ Tech Stack
 
 - **Frontend**: ReactJS
-- **Weather API**: [WeatherAPI](https://www.weatherapi.com/)
-- **Icons**: Custom weather-related icons used throughout the app.
+- **Weather API**: [OpenWeatherMap](https://openweathermap.org/)
+- **Icons**: Custom and OpenWeatherMap-based weather icons
+- **Styling**: CSS / Tailwind (if applicable)
+
+---
+
+## ⚙️ Getting Started
+
+Follow the steps below to run the app locally.
+
+### 1. Clone the Repository
+```bash
+git clone https://github.com/Khushi256/weather-app.git
+
 
 ## Setup
 
